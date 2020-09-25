@@ -1,0 +1,23 @@
+#root,
+html,
+body {
+  margin: 0;
+  padding: 0;
+  /* ^^^ removing default margin and padding from HTML & body */
+  height: 100vh;
+  box-sizing: border-box;
+}
+
+/* Important properties for setting up image as background */
+.App {
+  height: 100%;
+  background: url('./images/alec-favale-nGJboLqJx3M-unsplash.jpg');
+  background-size: cover;
+  background-position: center;
+  /* vvv using display, justify-content, align-items to center the card */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* vvv setting all text to the center */
+  text-align: center;
+}

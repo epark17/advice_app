@@ -1,7 +1,7 @@
 import React from 'react';
 import axios from 'axios';
 
-import './App.module.css';
+import './App.css';
 
 class App extends React.Component {
   state = { advice: '' };
@@ -45,7 +45,9 @@ class App extends React.Component {
 
     return (
       <div className="App">
-        <h1>{advice}</h1>
+        <div className="card">
+          <h1 className="heading">{advice}</h1>
+        </div>
       </div>
     );
   }
